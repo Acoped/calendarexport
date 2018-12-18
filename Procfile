@@ -1,1 +1,1 @@
-web: gunicorn calendarapi.wsgi --log-file=-
+web: gunicorn calendar_project.wsgi --log-file=-
