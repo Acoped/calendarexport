@@ -8,6 +8,7 @@ django = "==2.1"
 djangorestframework = "==3.8.2"
 requests = "*"
 gunicorn = "==19.9.0"
+whitenoise = "==3.3.1"
 
 [dev-packages]
 
