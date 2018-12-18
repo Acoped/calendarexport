@@ -34,8 +34,8 @@ function deleteEvent(link) {
 }
 
 function postTest(link, user_id, token, title, startDate, startTime, endDate, endTime, location, description) {
-  var URL = 'http://localhost:8000/calendarevent';
-  //var URL = 'https://calendarexport.herokuapp.com/calendarevent'
+  // var URL = 'http://localhost:8000/calendarevent';
+  var URL = 'https://calendarexport.herokuapp.com/calendarevent'
   var xhr = new XMLHttpRequest();
   var fd = new FormData();
 
